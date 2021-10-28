@@ -20,28 +20,30 @@
 
 <body>
 
-  <div class="grid bg">
-    <img src="./images/logo.svg" alt="Base Apparel" class="logo">
-    <div class="hero__imgs">
-      <picture>
-        <source srcset="./images/hero-desktop.jpg" media="(min-width: 800px)">
-        <img class="hero__img" src="./images/hero-mobile.jpg" alt="a woman with a plant in the background" />
-      </picture>
-    </div>
-    <section class="hero__content container">
-      <h1 class="title"><span class="accent">We're</span> coming soon</h1>
-      <p class="info">
-        Hello fellow shoppers! We're currently building our new fashion store.
-        Add your email below to stay up-to-date with announcements and our launch deals.
-      </p>
-      <div class="email__container">
-        <label for="email__address"></label>
-        <input type="email" class="email__input" id="email__address" name="email__address" placeholder="Email Address"
-          value='' required />
-        <button class="btn__input btn--light"></button>
-        <p class="error-msg">Please provide a valid email</p>
+  <div class="bg">
+    <div class="grid">
+      <img src="./images/logo.svg" alt="Base Apparel" class="logo">
+      <div class="hero__imgs">
+        <picture>
+          <source srcset="./images/hero-desktop.jpg" media="(min-width: 800px)">
+          <img class="hero__img" src="./images/hero-mobile.jpg" alt="a woman with a plant in the background" />
+        </picture>
       </div>
-    </section>
+      <section class="hero__content container">
+        <h1 class="title"><span class="accent">We're</span> coming soon</h1>
+        <p class="info">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+        <div class="email__container">
+          <label for="email__address"></label>
+          <input type="email" class="email__input" id="email__address" name="email__address" placeholder="Email Address"
+            value='' required />
+          <button class="btn__input btn--light"></button>
+          <p class="error-msg">Please provide a valid email</p>
+        </div>
+      </section>
+    </div>
   </div>
 
   <footer>
