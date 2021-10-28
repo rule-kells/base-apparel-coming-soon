@@ -201,6 +201,8 @@ img {
 
   .grid {
     display: grid;
+    max-width: 90rem;
+    margin: 0 auto;
     grid-template-columns: minmax(165px, auto) minmax(27.8125em, 2fr) minmax(
         auto,
         38.125em
