@@ -181,6 +181,7 @@ img {
     content: '';
     position: absolute;
     inset: 0;
+    background: var(--bg-linear-gradient);
     background-image: url('../images/bg-pattern-desktop.svg');
     background-size: cover;
     background-repeat: no-repeat;
